@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("assets/HelveticaLTStd-Light.otf");
+}
+$HelvLight: "HelveticaLight";
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("assets/HelveticaLTStd-Bold.otf");
+    font-weight: bold;
+}
+$HelvBold: "HelveticaBold";

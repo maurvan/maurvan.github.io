@@ -1,0 +1,63 @@
+/* colors */
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("assets/HelveticaLTStd-Light.otf");
+}
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("assets/HelveticaLTStd-Bold.otf");
+  font-weight: bold;
+}
+body {
+  background-color: white;
+  font-family: "HelveticaLight";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1a7c89;
+  text-decoration: none;
+}
+
+.intro {
+  width: 100%;
+  background-color: #d1f2f7;
+  height: 100vh;
+}
+.intro .boxOne {
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.intro .boxOne .textHead {
+  margin-top: 35vh;
+}
+.intro .boxOne .textHead h1 {
+  font-family: "HelveticaBold";
+  font-size: 5rem;
+  color: #1a7c89;
+}
+.intro .boxOne .textHead h3 {
+  font-family: "HelveticaLight";
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.intro .boxOne .textHead .myLinks .fa-brands {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.intro .boxOne .textHead .myLinks .fa-brands:hover {
+  color: #4ab4c2;
+}
+.intro .boxOne .topImg img {
+  height: 80vh;
+  margin-top: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */

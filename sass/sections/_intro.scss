@@ -1,0 +1,42 @@
+.intro {
+    width: 100%;
+    background-color: $bglight;
+    height: 100vh;
+
+    .boxOne {
+        width: 60vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .textHead {
+            margin-top: 35vh;
+
+            h1 {
+                font-family: $HelvBold;
+                font-size: 5rem;
+                color: $bluegreen;
+            }
+
+            h3 {
+                font-family: $HelvLight;
+                margin-top: -15px;
+                margin-left: 5px;
+            }
+
+            .myLinks .fa-brands {
+                font-size: 1.5rem;
+                padding: 5px;
+
+                &:hover {
+                    color: $bghover;
+                }
+            }
+        }
+
+        .topImg img {
+            height: 80vh;
+            margin-top: 10vh;
+        }
+    }
+}
