@@ -27,7 +27,7 @@ a {
 .intro {
   width: 100%;
   background-color: #d1f2f7;
-  height: 100vh;
+  height: 120vh;
 }
 .intro .boxOne {
   width: 60vw;
@@ -58,6 +58,62 @@ a {
 .intro .boxOne .topImg img {
   height: 80vh;
   margin-top: 10vh;
+}
+
+.between {
+  width: 100%;
+  overflow-x: hidden;
+}
+.between .waves {
+  background-image: url(assets/wave.png);
+  background-repeat: repeat-x;
+  position: relative;
+  height: 59px;
+  width: 300%;
+  animation: rollingwaves 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rollingwaves {
+  0% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-moz-keyframes rollingwaves {
+  0% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-ms-keyframes rollingwaves {
+  0% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes rollingwaves {
+  0% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.skills {
+  background-color: #1a7c89;
+  width: 100%;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
