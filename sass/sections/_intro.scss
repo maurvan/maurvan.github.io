@@ -34,9 +34,42 @@
             }
         }
 
-        .topImg img {
+        .topImg #me {
             height: 80vh;
             margin-top: 10vh;
         }
+    }
+
+    .deco #wave1 {
+        width: 214px;
+        position: absolute;
+        margin-left: 380px;
+        margin-top: -143px;
+    }
+
+    .deco #wave2 {
+        width: 350px;
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
+        margin-top: -345px;
+    }
+
+    .deco #wave3 {
+        width: 200px;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        margin-top: -290px;
+        margin-right: 86px;
+    }
+
+    .deco #wave4 {
+        width: 500px;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        margin-left: -10px;
+        margin-top: 45px;
     }
 }

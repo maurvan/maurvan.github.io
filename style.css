@@ -55,28 +55,41 @@ a {
 .intro .boxOne .textHead .myLinks .fa-brands:hover {
   color: #4ab4c2;
 }
-.intro .boxOne .topImg img {
+.intro .boxOne .topImg #me {
   height: 80vh;
   margin-top: 10vh;
 }
-
-.between {
-  width: 100%;
-  overflow-x: hidden;
+.intro .deco #wave1 {
+  width: 214px;
+  position: absolute;
+  margin-left: 380px;
+  margin-top: -143px;
 }
-.between .waves {
-  background-image: url(assets/wave.png);
-  background-repeat: repeat-x;
-  position: relative;
-  height: 59px;
-  width: 300%;
-  animation: rollingwaves 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+.intro .deco #wave2 {
+  width: 350px;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  margin-top: -345px;
+}
+.intro .deco #wave3 {
+  width: 200px;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  margin-top: -290px;
+  margin-right: 86px;
+}
+.intro .deco #wave4 {
+  width: 500px;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  margin-left: -10px;
+  margin-top: 45px;
 }
 
+/* ANIMATION */
 @-webkit-keyframes rollingwaves {
   0% {
     transform: translateX(-70%);
@@ -110,10 +123,81 @@ a {
   }
 }
 
+/* IN BETWEEN */
+.between {
+  width: 100%;
+  overflow-x: hidden;
+}
+.between .waves {
+  background-image: url(assets/wave.png);
+  background-repeat: repeat-x;
+  position: relative;
+  height: 59px;
+  width: 300%;
+  animation: rollingwaves 1s linear;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-play-state: paused;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+/* SKILLS PAGE */
 .skills {
   background-color: #1a7c89;
   width: 100%;
   height: 100vh;
+  color: white;
+}
+.skills .deco #wave5 {
+  width: 428px;
+  position: absolute;
+  margin-top: 133px;
+  margin-left: -135px;
+}
+.skills .boxTwo {
+  width: 60vw;
+  margin: auto;
+  padding-top: 150px;
+}
+.skills .boxTwo .skillsTitle {
+  font-family: "HelveticaBold";
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.skills .boxTwo .blocCompetences {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skills .boxTwo .blocCompetences .categ {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.skills .boxTwo .blocCompetences .categ .left {
+  width: 20%;
+  display: flex;
+}
+.skills .boxTwo .blocCompetences .categ .left .icon {
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.skills .boxTwo .blocCompetences .categ .right {
+  display: flex;
+  flex-direction: column;
+}
+.skills .boxTwo .blocCompetences .categ .right .title {
+  font-weight: bold;
+  color: #d1f2f7;
 }
 
 /*# sourceMappingURL=style.css.map */
