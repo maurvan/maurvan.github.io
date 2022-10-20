@@ -1,0 +1,57 @@
+.contact {
+    background-color: $bglight;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+
+    .emailMe {
+        background-color: $bluegreen;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin-bottom: 100px;
+        border-radius: 100px;
+        height: 200px;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        a {
+            color: white;
+        }
+    }
+
+    .bubble {
+        background-color: $bluegreen;
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .b1 {
+        width: 70px;
+        height: 70px;
+        margin-top: -140px;
+        margin-left: 230px;
+    }
+
+    .b2 {
+        width: 30px;
+        height: 30px;
+        margin-top: -205px;
+        margin-left: 85px;
+    }
+
+    .b3 {
+        width: 90px;
+        height: 90px;
+        margin-top: 156px;
+        margin-right: 280px;
+    }
+
+    .b4 {
+        width: 50px;
+        height: 50px;
+        margin-top: 236px;
+        margin-right: 125px;
+    }
+}

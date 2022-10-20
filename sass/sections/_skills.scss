@@ -46,6 +46,23 @@
         margin-left: -135px;
     }
 
+    .deco #wave6 {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        margin-right: 34vw;
+        margin-top: 82vh;
+        opacity: 0.8;
+    }
+
+    .deco #wave7 {
+        width: 350px;
+        position: absolute;
+        right: 0;
+        margin-right: 19vw;
+        margin-top: 88vh;
+    }
+
     .boxTwo {
         width: 60vw;
         margin: auto;
@@ -93,6 +110,11 @@
                     .title {
                         font-weight: bold;
                         color: $bglight;
+                        width: fit-content;
+                    }
+
+                    .disappear {
+                        display: none;
                     }
                 }
             }

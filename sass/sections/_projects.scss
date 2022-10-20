@@ -1,0 +1,15 @@
+.projects {
+    background-color: white;
+    height: 100vh;
+
+    .boxThree {
+        width: 60vw;
+        margin: auto;
+
+        .projectTitle {
+            font-family: $HelvBold;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+    }
+}

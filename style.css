@@ -24,6 +24,16 @@ a {
   text-decoration: none;
 }
 
+button, input[type=submit], input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
 .intro {
   width: 100%;
   background-color: #d1f2f7;
@@ -154,6 +164,21 @@ a {
   margin-top: 133px;
   margin-left: -135px;
 }
+.skills .deco #wave6 {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  margin-right: 34vw;
+  margin-top: 82vh;
+  opacity: 0.8;
+}
+.skills .deco #wave7 {
+  width: 350px;
+  position: absolute;
+  right: 0;
+  margin-right: 19vw;
+  margin-top: 88vh;
+}
 .skills .boxTwo {
   width: 60vw;
   margin: auto;
@@ -198,6 +223,75 @@ a {
 .skills .boxTwo .blocCompetences .categ .right .title {
   font-weight: bold;
   color: #d1f2f7;
+  width: fit-content;
+}
+.skills .boxTwo .blocCompetences .categ .right .disappear {
+  display: none;
+}
+
+.projects {
+  background-color: white;
+  height: 100vh;
+}
+.projects .boxThree {
+  width: 60vw;
+  margin: auto;
+}
+.projects .boxThree .projectTitle {
+  font-family: "HelveticaBold";
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.contact {
+  background-color: #d1f2f7;
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+}
+.contact .emailMe {
+  background-color: #1a7c89;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-bottom: 100px;
+  border-radius: 100px;
+  height: 200px;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contact .emailMe a {
+  color: white;
+}
+.contact .bubble {
+  background-color: #1a7c89;
+  border-radius: 100%;
+  position: absolute;
+}
+.contact .b1 {
+  width: 70px;
+  height: 70px;
+  margin-top: -140px;
+  margin-left: 230px;
+}
+.contact .b2 {
+  width: 30px;
+  height: 30px;
+  margin-top: -205px;
+  margin-left: 85px;
+}
+.contact .b3 {
+  width: 90px;
+  height: 90px;
+  margin-top: 156px;
+  margin-right: 280px;
+}
+.contact .b4 {
+  width: 50px;
+  height: 50px;
+  margin-top: 236px;
+  margin-right: 125px;
 }
 
 /*# sourceMappingURL=style.css.map */
