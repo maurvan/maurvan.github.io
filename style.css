@@ -242,6 +242,42 @@ button, input[type=submit], input[type=reset] {
   font-size: 2rem;
   margin-bottom: 40px;
 }
+.projects .boxThree .projectsAll {
+  width: 100%;
+}
+.projects .boxThree .projectsAll .projectOne {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.projects .boxThree .projectsAll .projectOne .left {
+  width: 55%;
+}
+.projects .boxThree .projectsAll .projectOne .left img {
+  width: 100%;
+  opacity: 1;
+  border-radius: 10px;
+}
+.projects .boxThree .projectsAll .projectOne .left img:hover {
+  opacity: 0.5;
+}
+.projects .boxThree .projectsAll .projectOne .right {
+  width: 45%;
+  margin-left: 1rem;
+  line-height: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projects .boxThree .projectsAll .projectOne .right .subtitle {
+  font-family: "HelveticaBold";
+}
+.projects .boxThree .projectsAll .projectOne .right .desc {
+  font-size: smaller;
+}
+.projects .boxThree .projectsAll .projectOne .right .id {
+  font-style: italic;
+}
 
 .contact {
   background-color: #d1f2f7;

@@ -11,5 +11,50 @@
             font-size: 2rem;
             margin-bottom: 40px;
         }
+
+        .projectsAll {
+            width: 100%;
+
+            .projectOne {
+                display: flex;
+                width: 100%;
+                margin-bottom: 3rem;
+
+                .left {
+                    width: 55%;
+
+                    img {
+                        width: 100%;
+                        opacity: 1;
+                        border-radius: 10px;
+
+                        &:hover {
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                .right {
+                    width: 45%;
+                    margin-left: 1rem;
+                    line-height: 1.3rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .subtitle {
+                        font-family: $HelvBold;
+                    }
+
+                    .desc {
+                        font-size: smaller;
+                    }
+
+                    .id {
+                        font-style: italic;
+                    }
+                }                
+            }
+        }
     }
 }
