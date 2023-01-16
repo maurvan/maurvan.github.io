@@ -32,6 +32,15 @@
         height: 70px;
         margin-top: -140px;
         margin-left: 230px;
+
+        @include phone {
+            margin-top: -55px;
+            margin-left: 195px;
+        }
+
+        @include tablet {
+            margin-top: -75px;
+        }
     }
 
     .b2 {
@@ -39,6 +48,14 @@
         height: 30px;
         margin-top: -205px;
         margin-left: 85px;
+
+        @include phone {
+            margin-top: -84px;
+        }
+
+        @include tablet {
+            margin-top: -120px;
+        }
     }
 
     .b3 {

@@ -1,3 +1,5 @@
+/* animations */
+/* responsive */
 /* colors */
 @font-face {
   font-family: "HelveticaLight";
@@ -11,6 +13,7 @@
 body {
   background-color: white;
   font-family: "HelveticaLight";
+  width: 100%;
 }
 
 * {
@@ -45,8 +48,28 @@ button, input[type=submit], input[type=reset] {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 576px) {
+  .intro .boxOne {
+    flex-direction: column-reverse;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .boxOne {
+    width: 80vw;
+  }
+}
 .intro .boxOne .textHead {
   margin-top: 35vh;
+}
+@media screen and (max-width: 576px) {
+  .intro .boxOne .textHead {
+    margin-top: 19vh;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .boxOne .textHead {
+    margin-top: 30vh;
+  }
 }
 .intro .boxOne .textHead h1 {
   font-family: "HelveticaBold";
@@ -58,6 +81,11 @@ button, input[type=submit], input[type=reset] {
   margin-top: -15px;
   margin-left: 5px;
 }
+@media screen and (max-width: 576px) {
+  .intro .boxOne .textHead h3 {
+    font-size: 0.9rem;
+  }
+}
 .intro .boxOne .textHead .myLinks .fa-brands {
   font-size: 1.5rem;
   padding: 5px;
@@ -66,14 +94,36 @@ button, input[type=submit], input[type=reset] {
   color: #4ab4c2;
 }
 .intro .boxOne .topImg #me {
-  height: 80vh;
   margin-top: 10vh;
+  width: 37rem;
+}
+@media screen and (max-width: 576px) {
+  .intro .boxOne .topImg #me {
+    margin-top: 15vh;
+    width: 15rem;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .boxOne .topImg #me {
+    margin-top: 19vh;
+    width: 20rem;
+  }
 }
 .intro .deco #wave1 {
   width: 214px;
   position: absolute;
   margin-left: 380px;
   margin-top: -143px;
+}
+@media screen and (max-width: 576px) {
+  .intro .deco #wave1 {
+    display: none;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .deco #wave1 {
+    display: none;
+  }
 }
 .intro .deco #wave2 {
   width: 350px;
@@ -82,6 +132,16 @@ button, input[type=submit], input[type=reset] {
   margin-right: 50px;
   margin-top: -345px;
 }
+@media screen and (max-width: 576px) {
+  .intro .deco #wave2 {
+    margin-top: -270px;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .deco #wave2 {
+    margin-top: 20px;
+  }
+}
 .intro .deco #wave3 {
   width: 200px;
   opacity: 0.5;
@@ -89,6 +149,16 @@ button, input[type=submit], input[type=reset] {
   right: 0;
   margin-top: -290px;
   margin-right: 86px;
+}
+@media screen and (max-width: 576px) {
+  .intro .deco #wave3 {
+    margin-top: -220px;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .intro .deco #wave3 {
+    margin-top: 80px;
+  }
 }
 .intro .deco #wave4 {
   width: 500px;
@@ -158,11 +228,28 @@ button, input[type=submit], input[type=reset] {
   height: 100vh;
   color: white;
 }
+@media screen and (max-width: 576px) {
+  .skills {
+    height: 145vh;
+  }
+}
 .skills .deco #wave5 {
   width: 428px;
   position: absolute;
   margin-top: 133px;
   margin-left: -135px;
+}
+@media screen and (max-width: 576px) {
+  .skills .deco #wave5 {
+    width: 235px;
+    margin-top: 148px;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .skills .deco #wave5 {
+    width: 205px;
+    margin-top: 150px;
+  }
 }
 .skills .deco #wave6 {
   width: 200px;
@@ -172,6 +259,16 @@ button, input[type=submit], input[type=reset] {
   margin-top: 82vh;
   opacity: 0.8;
 }
+@media screen and (max-width: 576px) {
+  .skills .deco #wave6 {
+    display: none;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .skills .deco #wave6 {
+    width: 170px;
+  }
+}
 .skills .deco #wave7 {
   width: 350px;
   position: absolute;
@@ -179,10 +276,26 @@ button, input[type=submit], input[type=reset] {
   margin-right: 19vw;
   margin-top: 88vh;
 }
+@media screen and (max-width: 576px) {
+  .skills .deco #wave7 {
+    display: none;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .skills .deco #wave7 {
+    width: 275px;
+    margin-right: 9vw;
+  }
+}
 .skills .boxTwo {
   width: 60vw;
   margin: auto;
   padding-top: 150px;
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .skills .boxTwo {
+    width: 80vw;
+  }
 }
 .skills .boxTwo .skillsTitle {
   font-family: "HelveticaBold";
@@ -195,6 +308,12 @@ button, input[type=submit], input[type=reset] {
   flex-direction: row;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 576px) {
+  .skills .boxTwo .blocCompetences {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
 .skills .boxTwo .blocCompetences .categ {
   width: 50%;
   height: 100px;
@@ -202,6 +321,11 @@ button, input[type=submit], input[type=reset] {
   flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .skills .boxTwo .blocCompetences .categ {
+    width: 100%;
+  }
 }
 .skills .boxTwo .blocCompetences .categ .left {
   width: 20%;
@@ -233,9 +357,24 @@ button, input[type=submit], input[type=reset] {
   background-color: white;
   height: 100vh;
 }
+@media screen and (max-width: 576px) {
+  .projects {
+    height: 140vh;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .projects {
+    height: 180vh;
+  }
+}
 .projects .boxThree {
   width: 60vw;
   margin: auto;
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .projects .boxThree {
+    width: 80vw;
+  }
 }
 .projects .boxThree .projectTitle {
   font-family: "HelveticaBold";
@@ -250,8 +389,28 @@ button, input[type=submit], input[type=reset] {
   width: 100%;
   margin-bottom: 3rem;
 }
+@media screen and (max-width: 576px) {
+  .projects .boxThree .projectsAll .projectOne {
+    flex-direction: column;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .projects .boxThree .projectsAll .projectOne {
+    flex-direction: column;
+  }
+}
 .projects .boxThree .projectsAll .projectOne .left {
   width: 55%;
+}
+@media screen and (max-width: 576px) {
+  .projects .boxThree .projectsAll .projectOne .left {
+    width: 100%;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .projects .boxThree .projectsAll .projectOne .left {
+    width: 100%;
+  }
 }
 .projects .boxThree .projectsAll .projectOne .left img {
   width: 100%;
@@ -269,14 +428,21 @@ button, input[type=submit], input[type=reset] {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 576px) {
+  .projects .boxThree .projectsAll .projectOne .right {
+    width: 100%;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .projects .boxThree .projectsAll .projectOne .right {
+    width: 100%;
+  }
+}
 .projects .boxThree .projectsAll .projectOne .right .subtitle {
   font-family: "HelveticaBold";
 }
 .projects .boxThree .projectsAll .projectOne .right .desc {
   font-size: smaller;
-}
-.projects .boxThree .projectsAll .projectOne .right .id {
-  font-style: italic;
 }
 
 .contact {
@@ -311,11 +477,32 @@ button, input[type=submit], input[type=reset] {
   margin-top: -140px;
   margin-left: 230px;
 }
+@media screen and (max-width: 576px) {
+  .contact .b1 {
+    margin-top: -55px;
+    margin-left: 195px;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .contact .b1 {
+    margin-top: -75px;
+  }
+}
 .contact .b2 {
   width: 30px;
   height: 30px;
   margin-top: -205px;
   margin-left: 85px;
+}
+@media screen and (max-width: 576px) {
+  .contact .b2 {
+    margin-top: -84px;
+  }
+}
+@media screen, (min-width: 577px) and (max-width: 768px) {
+  .contact .b2 {
+    margin-top: -120px;
+  }
 }
 .contact .b3 {
   width: 90px;

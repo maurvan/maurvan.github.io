@@ -2,9 +2,21 @@
     background-color: white;
     height: 100vh;
 
+    @include phone {
+        height: 140vh;
+    }
+
+    @include tablet {
+        height: 180vh;
+    }
+
     .boxThree {
         width: 60vw;
         margin: auto;
+
+        @include tablet {
+            width: 80vw;
+        }
 
         .projectTitle {
             font-family: $HelvBold;
@@ -20,8 +32,24 @@
                 width: 100%;
                 margin-bottom: 3rem;
 
+                @include phone {
+                    flex-direction: column;
+                }
+
+                @include tablet {
+                    flex-direction: column;
+                }
+
                 .left {
                     width: 55%;
+
+                    @include phone {
+                        width: 100%;
+                    }
+
+                    @include tablet {
+                        width: 100%;
+                    }
 
                     img {
                         width: 100%;
@@ -42,16 +70,20 @@
                     flex-direction: column;
                     justify-content: center;
 
+                    @include phone {
+                        width: 100%;
+                    }
+
+                    @include tablet {
+                        width: 100%;
+                    }
+
                     .subtitle {
                         font-family: $HelvBold;
                     }
 
                     .desc {
                         font-size: smaller;
-                    }
-
-                    .id {
-                        font-style: italic;
                     }
                 }                
             }

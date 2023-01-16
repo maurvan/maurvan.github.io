@@ -9,8 +9,24 @@
         display: flex;
         justify-content: space-between;
 
+        @include phone {
+            flex-direction: column-reverse;
+        }
+
+        @include tablet {
+            width: 80vw;
+        }
+
         .textHead {
             margin-top: 35vh;
+
+            @include phone {
+                margin-top: 19vh;
+            }
+
+            @include tablet {
+                margin-top: 30vh;
+            }
 
             h1 {
                 font-family: $HelvBold;
@@ -22,6 +38,10 @@
                 font-family: $HelvLight;
                 margin-top: -15px;
                 margin-left: 5px;
+
+                @include phone {
+                    font-size: 0.9rem;
+                }
             }
 
             .myLinks .fa-brands {
@@ -35,8 +55,18 @@
         }
 
         .topImg #me {
-            height: 80vh;
             margin-top: 10vh;
+            width: 37rem;
+
+            @include phone {
+                margin-top: 15vh;
+                width: 15rem;
+            }
+
+            @include tablet {
+                margin-top: 19vh;
+                width: 20rem;
+            }
         }
     }
 
@@ -45,6 +75,14 @@
         position: absolute;
         margin-left: 380px;
         margin-top: -143px;
+
+        @include phone {
+            display: none;
+        }
+
+        @include tablet {
+            display: none;
+        }
     }
 
     .deco #wave2 {
@@ -53,6 +91,14 @@
         right: 0;
         margin-right: 50px;
         margin-top: -345px;
+
+        @include phone {
+            margin-top: -270px;
+        }
+
+        @include tablet {
+            margin-top: 20px;
+        }
     }
 
     .deco #wave3 {
@@ -62,6 +108,14 @@
         right: 0;
         margin-top: -290px;
         margin-right: 86px;
+
+        @include phone {
+            margin-top: -220px;
+        }
+
+        @include tablet {
+            margin-top: 80px;
+        }
     }
 
     .deco #wave4 {

@@ -1,3 +1,5 @@
+/* animations */
+
 @mixin keyframes($name) {
     @-webkit-keyframes #{$name} {
         @content;
@@ -28,4 +30,18 @@
     animation-duration: $duration;
     animation-timing-function: $timing;
     animation-iteration-count: $iteration;
+}
+
+/* responsive */
+
+@mixin phone {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen, (min-width: 577px) and (max-width: 768px) {
+        @content;
+    }
 }
