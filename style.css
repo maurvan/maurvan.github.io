@@ -48,12 +48,12 @@ button, input[type=submit], input[type=reset] {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .boxOne {
     flex-direction: column-reverse;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .boxOne {
     width: 80vw;
   }
@@ -61,12 +61,12 @@ button, input[type=submit], input[type=reset] {
 .intro .boxOne .textHead {
   margin-top: 35vh;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .boxOne .textHead {
     margin-top: 19vh;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .boxOne .textHead {
     margin-top: 30vh;
   }
@@ -81,7 +81,7 @@ button, input[type=submit], input[type=reset] {
   margin-top: -15px;
   margin-left: 5px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .boxOne .textHead h3 {
     font-size: 0.9rem;
   }
@@ -97,13 +97,13 @@ button, input[type=submit], input[type=reset] {
   margin-top: 10vh;
   width: 37rem;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .boxOne .topImg #me {
     margin-top: 15vh;
     width: 15rem;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .boxOne .topImg #me {
     margin-top: 19vh;
     width: 20rem;
@@ -115,12 +115,12 @@ button, input[type=submit], input[type=reset] {
   margin-left: 380px;
   margin-top: -143px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .deco #wave1 {
     display: none;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .deco #wave1 {
     display: none;
   }
@@ -132,12 +132,12 @@ button, input[type=submit], input[type=reset] {
   margin-right: 50px;
   margin-top: -345px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .deco #wave2 {
     margin-top: -270px;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .deco #wave2 {
     margin-top: 20px;
   }
@@ -150,12 +150,12 @@ button, input[type=submit], input[type=reset] {
   margin-top: -290px;
   margin-right: 86px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .intro .deco #wave3 {
     margin-top: -220px;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .intro .deco #wave3 {
     margin-top: 80px;
   }
@@ -228,7 +228,7 @@ button, input[type=submit], input[type=reset] {
   height: 100vh;
   color: white;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills {
     height: 145vh;
   }
@@ -239,13 +239,13 @@ button, input[type=submit], input[type=reset] {
   margin-top: 133px;
   margin-left: -135px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills .deco #wave5 {
     width: 235px;
     margin-top: 148px;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .skills .deco #wave5 {
     width: 205px;
     margin-top: 150px;
@@ -259,12 +259,12 @@ button, input[type=submit], input[type=reset] {
   margin-top: 82vh;
   opacity: 0.8;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills .deco #wave6 {
     display: none;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .skills .deco #wave6 {
     width: 170px;
   }
@@ -276,12 +276,12 @@ button, input[type=submit], input[type=reset] {
   margin-right: 19vw;
   margin-top: 88vh;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills .deco #wave7 {
     display: none;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .skills .deco #wave7 {
     width: 275px;
     margin-right: 9vw;
@@ -292,7 +292,7 @@ button, input[type=submit], input[type=reset] {
   margin: auto;
   padding-top: 150px;
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .skills .boxTwo {
     width: 80vw;
   }
@@ -308,7 +308,7 @@ button, input[type=submit], input[type=reset] {
   flex-direction: row;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills .boxTwo .blocCompetences {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -322,7 +322,7 @@ button, input[type=submit], input[type=reset] {
   align-items: center;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .skills .boxTwo .blocCompetences .categ {
     width: 100%;
   }
@@ -357,12 +357,12 @@ button, input[type=submit], input[type=reset] {
   background-color: white;
   height: 100vh;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .projects {
     height: 140vh;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .projects {
     height: 180vh;
   }
@@ -371,7 +371,7 @@ button, input[type=submit], input[type=reset] {
   width: 60vw;
   margin: auto;
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .projects .boxThree {
     width: 80vw;
   }
@@ -389,12 +389,12 @@ button, input[type=submit], input[type=reset] {
   width: 100%;
   margin-bottom: 3rem;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .projects .boxThree .projectsAll .projectOne {
     flex-direction: column;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .projects .boxThree .projectsAll .projectOne {
     flex-direction: column;
   }
@@ -402,12 +402,12 @@ button, input[type=submit], input[type=reset] {
 .projects .boxThree .projectsAll .projectOne .left {
   width: 55%;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .projects .boxThree .projectsAll .projectOne .left {
     width: 100%;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .projects .boxThree .projectsAll .projectOne .left {
     width: 100%;
   }
@@ -428,12 +428,12 @@ button, input[type=submit], input[type=reset] {
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .projects .boxThree .projectsAll .projectOne .right {
     width: 100%;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .projects .boxThree .projectsAll .projectOne .right {
     width: 100%;
   }
@@ -477,13 +477,13 @@ button, input[type=submit], input[type=reset] {
   margin-top: -140px;
   margin-left: 230px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .contact .b1 {
     margin-top: -55px;
     margin-left: 195px;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .contact .b1 {
     margin-top: -75px;
   }
@@ -494,12 +494,12 @@ button, input[type=submit], input[type=reset] {
   margin-top: -205px;
   margin-left: 85px;
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .contact .b2 {
     margin-top: -84px;
   }
 }
-@media screen, (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .contact .b2 {
     margin-top: -120px;
   }
